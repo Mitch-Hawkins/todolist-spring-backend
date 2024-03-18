@@ -56,3 +56,4 @@ jobs:
           slot-name: 'Production'
           package: '*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_127F44516EE54C88BA8995C8E3CA6E43 }}
+          distribution: 'java'
