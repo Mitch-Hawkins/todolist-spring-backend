@@ -12,6 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
       "http://localhost:5173/",
       "http://127.0.0.1:5173/",
       "http://localhost:3000/",
+      "https://nice-coast-0ffb54e00.5.azurestaticapps.net/",
     };
     registry
       .addMapping("/**")
