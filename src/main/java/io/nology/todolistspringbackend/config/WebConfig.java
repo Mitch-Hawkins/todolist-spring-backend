@@ -9,10 +9,10 @@ public class WebConfig implements WebMvcConfigurer {
 
   public void addCorsMappings(CorsRegistry registry) {
     String[] allowedOrigins = {
-      "http://localhost:5173/",
-      "http://127.0.0.1:5173/",
-      "http://localhost:3000/",
-      "https://nice-coast-0ffb54e00.5.azurestaticapps.net/",
+      "http://localhost:5173",
+      "http://127.0.0.1:5173",
+      "http://localhost:3000",
+      "https://nice-coast-0ffb54e00.5.azurestaticapps.net",
     };
     registry
       .addMapping("/**")
