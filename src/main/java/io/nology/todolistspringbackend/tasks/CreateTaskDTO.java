@@ -19,7 +19,7 @@ public class CreateTaskDTO {
   @Max(5)
   private int priority;
 
-  @NotNull
+  // @NotNull
   private LocalDateTime dueDate;
 
   public String getName() {
